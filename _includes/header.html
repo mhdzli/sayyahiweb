@@ -1,0 +1,39 @@
+<header class="header" dir=rtl>
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="header-box">
+          <div class="logo-title">
+            <a href="{{site.baseurl}}/" class="logo-text"><img src={{"/img/" | prepend: site.baseurl | append : "title.png"}} height="20"></a>
+          </div>
+
+          <nav class="nav-menu">
+            <i class="menu-close fa fa-window-close"></i>
+            <ul class="menu-list">
+              <li class="menu-item"><a href="{{site.baseurl}}/" class="menu-link">خانه</a></li>
+              {% for page in site.pages %}
+                {% unless page.name == 'tags.html' or page.name == '404.html' %}
+              {% if page.title %}
+              <li class="menu-item"><a href="{{ page.url | prepend: site.baseurl }}" class="menu-link">&ensp;{{ page.title }}   </a></li>
+              {% endif %}
+                {% endunless %}
+              {% endfor %}
+            </ul>
+          </nav>
+          <div class="nav-buttons">
+            <i class="menu-button d-hide fa fa-bars"></i>
+            <i class="search-button fa fa-search"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="search">
+    <div class="search-box">
+      <i class="search-close-button fa fa-window-close"></i>
+      <label for="js-search-input" class="screen-reader-text"></label>
+      <input type="text" id="js-search-input" class="search-text" autocomplete="off" placeholder="جستجوی وبسایت ...">
+      <ol id="js-results-container" class="search-results-list"></ol>
+    </div>
+  </div>
+</header> <!-- /.header -->

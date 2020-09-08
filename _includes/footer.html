@@ -1,0 +1,45 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="footer-top">
+          <h2 class="logo-title">
+            <a href="{{site.baseurl}}/" class="logo-text">سید عباس سیاحی</a>
+          </h2>
+          <div class="top"><i class="fa fa-chevron-up"></i></div>
+        </div>
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>&copy; {{site.time | date: '%Y'}} طراحی: <a href="https://github.com/mhdzli">&ensp; محمد زینلی &ensp;</a></p>
+          </div>
+          <div class="footer-social">
+            <ul class="list-reset">
+              {% if site.facebook %}
+              <li><a href="{{ site.facebook }}">فیسبوک</a></li>
+              {% else %} {% endif %}
+
+              {% if site.twitter %}
+              <li><a href="{{ site.twitter }}">توییتر</a></li>
+              {% else %} {% endif %}
+
+              {% if site.instagram %}
+              <li><a href="{{ site.instagram }}">اینستاگرام</a></li>
+              {% else %} {% endif %}
+
+              {% if site.telegram %}
+              <li><a href="{{ site.telegram }}">تلگرام</a></li>
+              {% else %} {% endif %}
+
+              {% if site.pinterest %}
+              <li><a href="{{ site.pinterest }}">پینترست</a></li>
+              {% else %} {% endif %}
+            </ul>
+          </div>
+          <div class="copyright">
+            <p>ایمیل: websayahi@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> <!-- /.footer -->
