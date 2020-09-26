@@ -1,3 +1,5 @@
+@import 'vazir';
+
 // 0-SETTINGS
 @import '0-settings/global';
 @import '0-settings/colors';
@@ -14,7 +16,6 @@
 @import '2-base/base';
 
 // 3-MODULES
-@import '3-modules/loader';
 @import '3-modules/buttons';
 @import '3-modules/sidebar';
 @import '3-modules/pagination';
