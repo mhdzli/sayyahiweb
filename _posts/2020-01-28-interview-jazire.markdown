@@ -2,7 +2,7 @@
 layout: post
 title:  مصاحبه با مجله جزیره دانش
 date:   2020-01-28 10:05:55 +0300
-image:  01.jpg
+image:  07.jpg
 tags:   [معرفی, مصاحبه]
 ---
 
