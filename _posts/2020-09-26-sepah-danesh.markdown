@@ -19,8 +19,7 @@ tags:   [سپاه دانش, ویدیو, کتاب]
 
 ### سخنرانی استاد سیاحی برای آموزگاران دوره اول سپاه دانش
 
-
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.maga.host/videos/embed/54c7cb0b-f7b8-4271-b457-2efd1aefc353" frameborder="0" allowfullscreen></iframe>
+<iframe id="lbry-iframe" width="560" height="315" src="https://odysee.com/$/embed/sepah-danesh/8817fada350abc45b31e13ddc72a35570918dbbe?r=CeJhgvjy8LgKLM7bD7WF4WwqWej9tFMu" allowfullscreen></iframe>
 
 
 البته کتابهای ده نامه توسط انتشارات سپاه دانش چاپ می‌شد که پیش از انقلاب تعطیل شد و متاسفانه خیلی ار این کتاب‌ها را حتی در آرشیوهای شخصی هم پیدا نکردیم.
