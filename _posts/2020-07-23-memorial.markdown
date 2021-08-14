@@ -8,4 +8,4 @@ tags:   [ویدیو, یادبود]
 
 در اولین سالگرد درگذشت استاد سیاحی مراسم یادبودی توسط سازمان میراث فرهنگی برگزار شد. این ویدیو جهت پخش در آن مراسم تهیه شده بود که شامل بخشهایی ار مستند الفبای رنگ و فیلم گبه است.
 
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.maga.host/videos/embed/824b1c11-7bfe-4685-868e-33148c5cddd4" frameborder="0" allowfullscreen></iframe>
+<iframe id="lbry-iframe" width="560" height="315" src="https://odysee.com/$/embed/memorial/170e451f46cb15b7bd1433ed52dd8578ebcd630b?r=CeJhgvjy8LgKLM7bD7WF4WwqWej9tFMu" allowfullscreen></iframe>
